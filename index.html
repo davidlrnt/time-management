@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Work Timer</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <input id="workMin" type="number" placeholder="work minutes">
+    <input id="breakMin" type="number" placeholder="break minutes">
+    <input id="start" type="submit" value="Start" onclick="startCount()">
+    <input id="stop" type="submit" value="Stop" onclick="stopCount()" style="display: none;">
+  </nav>
+  <div id="timer-container">
+    <h1 id='timer'>00:00</h1>
+  </div>
+	<script src="js/script.js"></script>
+</body>
+</html>
